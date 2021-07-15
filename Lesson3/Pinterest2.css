@@ -1,0 +1,222 @@
+.header {
+    height: 150px;
+    background: skyblue;
+    display: flex;
+    }
+
+.w180{
+    width: 180px;
+}
+
+.h50{
+    height: 50px;
+}
+
+.radius10 {
+    border-radius: 10px;
+}
+
+.green {
+    background: #033835;
+}
+
+.purple {
+    background: purple;
+}
+
+.purp-rad10 {
+    background: purple;
+    border-radius: 10px;
+}
+
+.left, .right {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.left {
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 60px;
+}
+.right {
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+.w30 {
+    width: 30px;
+}
+.w60 {
+    width: 60px;
+
+}
+.h5 {
+    height: 5px;
+}
+
+.marg-left-10 {
+    margin-left: 10px;
+}
+
+.right-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-low {
+    display: flex;
+    margin-top: 30px;
+}
+
+.top{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.w70{
+    width: 70px;
+}
+
+.w140 {
+    width: 140px;
+}
+
+.h10{
+    height: 10px;
+}
+
+.top1 {
+    display: flex;
+}
+.h35 {
+    height: 35px;
+}
+.topper {
+    width: 300px;
+
+}
+
+.content {
+    background: skyblue;
+    min-height: 1000px;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    display: flex;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.mag-top-30 {
+    margin-top: 30px;
+}
+
+.h30 {
+    height: 30px;
+}
+
+.small-box {
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    display: flex;
+    margin-left: 100px;
+}
+.small-box>i {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.w100 {
+    width: 100px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.box {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.content-right {
+   margin-left: 400px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+}
+
+.marg-top-20 {
+    margin-top: 20px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+
+.long-line, .short-line {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+ .circules {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    height: 150px;
+    background: #033835;
+    margin-top: 50px;
+    display: flex;
+}
+.left-footer, .right-footer {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.left-footer {
+    justify-content: center;
+}
+
+.right-footer {
+    justify-content: flex-start;
+}
+.footer-small-box {
+    display: flex;
+}
+
+.w35 {
+    width: 35px;
+}
+
+.marg-left-60 {
+    margin-left: 60px;
+}

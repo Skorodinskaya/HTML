@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background: #033940;
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+    display: flex;
+}
+
+.left {
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.h50{
+    height: 50px;
+}
+
+.w150{
+    width: 150px;
+}
+
+.radius10{
+    border-radius: 10px;
+}
+
+.rectangle {
+    background: skyblue;
+}
+
+.pink-rad-10 {
+    background: deeppink;
+    border-radius: 10px;
+}
+
+.h5 {
+    height: 5px;
+}
+
+.w35 {
+    width: 35px;
+}
+.marg25 {
+    margin-left: 25px;
+}
+
+.content {
+    min-height: 1000px;
+    background: paleturquoise;
+}
+.total {
+    padding-top: 30px;
+}
+.w50 {
+    width: 50px;
+}
+
+.green {
+    background: #033940;
+}
+
+.w25{
+    width: 25px;
+}
+
+.lines>* {
+    margin-top: 25px;
+}
+
+.marg50 {
+    margin-top: 50px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.box-top {
+    display: flex;
+}
+
+.box-top>* {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-evenly;
+}
+.total-line {
+    background: deeppink;
+    height: 2px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.title {
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+.pink {
+    background: deeppink;
+}
+
+.rad50 {
+    border-radius: 50%;
+}
+
+.circle {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.text {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.rectangles {
+    display: flex;
+    margin-top: 40px;
+}
+
+.marg-left40 {
+    margin-left: 40px;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    margin-top: 50px;
+    background: #033940;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h35 {
+    height: 35px;
+}
+
+.footer-right>* {
+    margin-left: 35px;
+}

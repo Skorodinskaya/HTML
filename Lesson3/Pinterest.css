@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.high {
+    height: 100px;
+    background: rgba(138, 227, 227, 0.65);
+    display: flex;
+}
+.green {
+    background: #033835;
+}
+.left, .right {
+    width: 50%;
+    align-items: center;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    color: purple;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.right>i {
+    margin-left: 30px;
+}
+.h50 {
+    height: 50px;
+}
+.head {
+    height: 400px;
+    background: #033835;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+}
+.content {
+    min-height: 1000px;
+    background: rgba(138, 227, 227, 0.65);
+}
+.w90 {
+    width: 90px;
+}
+.w180 {
+    width: 180px;
+}
+
+.h15 {
+    height: 15px;
+}
+
+.h30{
+    height: 30px;
+}
+.purple {
+    background: purple;
+}
+.radius10 {
+    border-radius: 10px;
+}
+.marg-left-10 {
+    margin-left: 10px;
+}
+.marg-left-125 {
+    margin-left: 125px;
+}
+
+.text {
+    width: 450px;
+    text-align: center;
+}
+.w200 {
+    width: 200px;
+}
+
+.h200{
+    height: 200px;
+}
+
+.box1 {
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 400px;
+}
+
+.title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.pad-left30 {
+    padding-left: 30px;
+}
+.square-top {
+    display: flex;
+    justify-content: center;
+}
+
+.w400 {
+    width: 400px;
+}
+
+.long-box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.scroll-box {
+    display: flex;
+    justify-content: center;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.foot {
+    width: 600px;
+    margin-left: 30px;
+}
+
+.low {
+    margin-top: 20px;
+    height: 100px;
+    background: #033835;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower1-items {
+    display: flex;
+    justify-content: center;
+}
+
+.lower2-items {
+    display: flex;
+    margin-top: 20px;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.h30 {
+    height: 30px;
+}
+
+.h5 {
+    height: 5px;
+}

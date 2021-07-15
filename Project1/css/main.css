@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    min-height: 3200px;
+    width: 1440px;
+}
+
+.padding-left145 {
+    padding-left: 145px;
+}
+.header-top {
+    height: 100px;
+}
+.d-flex {
+    display: flex;
+}
+
+.aline-center {
+    align-items: center;
+}
+.header_logo >img {
+    padding-right: 141px;
+}
+.header_menu_nav {
+    column-gap: 22px;
+}
+
+.header_menu_button {
+    margin-left: 27px;
+    grid-column-gap: 18px;
+}
+
+.header_menu_nav_items a {
+    color: #000000;
+    font-size: 15px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.header_menu_button_login {
+    color: #000000;
+    background: white;
+}
+.header_menu_button_login:hover {
+    background: black;
+    color: white;
+}
+.header_menu_button_expert {
+    color: white;
+    background: black;
+}
+
+.header_menu_button_expert:hover {
+    color: #000000;
+    background: white;
+}
+.header_menu_button_login, .header_menu_button_expert,.button_talk_to_us button, .why_swith_item button, .the_ac_hub_content button, .ready_to_switch button{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.first_screen {
+    position: relative;
+}
+.first_screen_left {
+    max-width: 490px;
+    padding-top: 95px;
+}
+
+.first_screen_grid {
+    column-gap: 50px;
+    color: #000000;
+    border-bottom: 1px solid #EAEEF2;
+}
+
+.first_screen_left h1 {
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    margin-bottom: 27px;
+}
+
+.first_screen_left p {
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.button_talk_to_us button{
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: black;
+    margin-top: 25px;
+}
+
+.button_talk_to_us h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button_talk_to_us {
+    position: absolute;
+    bottom: -30px;
+}
+
+.best_finance_stack {
+    margin-top: 126px;
+    column-gap: 104px;
+}
+
+.best_finance_stack img{
+    margin-top: 84px;
+    width: 443px;
+}
+
+.best_finance_stack_text {
+    margin-top: 52px;
+}
+.best_finance_stack_text h2 {
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    width: 443px;
+    margin-bottom: 33px;
+}
+
+.best_finance_stack_text p {
+    font-size: 20px;
+    line-height: 31px;
+    width: 515px;
+}
+
+.why_switch, .plans_built_for_growth {
+    padding: 88px 0 88px 145px;
+}
+
+.why_switch_wrap, .plans_built_for_growth_wrap {
+    column-gap: 128px;
+}
+
+.why_switch h2, .plans_built_for_growth h2, .the_ac_hub_content h2 {
+    font-size: 58px;
+    line-height: 58px;
+    margin: 82px 0;
+}
+
+.why_swith_item h3, .plans_built_for_growth_item h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 24px;
+
+}
+
+.why_swith_item p, .plans_built_for_growth_item p {
+    font-size: 18px;
+    line-height: 24px;
+    width: 295px;
+    margin-top: 10px;
+}
+
+.why_swith_item button {
+    background: #F7B2B7;
+    color: #000000;
+    margin-top: 71px;
+}
+
+.plans_built_for_growth {
+    background: #FDECED;
+}
+
+.companies {
+    margin-top: 129px;
+}
+   .companies_title p {
+       font-size: 27px;
+       line-height: 36px;
+       margin-right: 137px;
+       box-sizing: border-box;
+       width: 236px;
+       height: 72px;
+   }
+
+   .companies img {
+       margin-bottom: 90px;
+
+   }
+
+   .companies_images {
+       justify-content: flex-end;
+   }
+
+   .block_2, .block_3 {
+       margin-left: 80px;
+   }
+
+   .the_ac_hub {
+       margin-top: 95px;
+       column-gap: 120px;
+   }
+
+.the_ac_hub_content p {
+    font-size: 20px;
+    line-height: 31px;
+    width: 547px;
+    height: 62px;
+}
+
+.the_ac_hub_content button {
+    background: #F7B2B7;
+    margin-top: 79px;
+}
+
+.ready_to_switch {
+    margin: 186px 0;
+}
+.ready_to_switch_item {
+    width: 1150px;
+    height: 283px;
+    background: #8BD4D6;
+    border-radius: 10px;
+    column-gap: 196px;
+}
+
+.ready_to_switch_item_content h2{
+    font-size: 46px;
+    line-height: 56px;
+}
+
+.ready_to_switch_item_content p {
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.ready_to_switch button {
+    background: black;
+    color: white;
+}
+
+.ready_to_switch_item_content {
+    margin-left: 90px;
+}
+
+footer {
+    background: #302E3F;
+}
+.your_new_finance_team {
+    padding: 40px 0 50px 0;
+    column-gap: 18px;
+}
+.your_new_finance_team h2 {
+    column-gap: 18px;
+    font-size: 28px;
+    line-height: 36px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer_block_1, .footer_block_2, .footer_block_3, .footer_block_4, .footer_block_5 {
+    margin-left: 90px;
+}
+.footer_blocks h3, .footer_block_6 h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.footer_blocks p, .footer_block_6 p, .footer_lines p{
+    font-size: 16px;
+    line-height: 16px;
+    color: #C5E9EA;
+    padding-bottom: 12px;
+}
+
+.footer_block_6 {
+    margin-top: 80px;
+}
+
+ .footer_lines {
+     margin-top: 62px;
+     column-gap: 27px;
+ }
+
+ .footer_lines >img {
+     position: relative;
+     bottom: 50px;
+ }
+
+ .footer_last >img {
+     padding-left: 526px;
+ }
+
+ .mobile_menu_button {
+     display: none;
+     width: 60px;
+     height: 60px;
+     align-items: center;
+     justify-content: center;
+ }
+.mobile_menu_button span {
+    height: 5px;
+    width: 80%;
+    background: #1e6e71;
+    display: block;
+    position: relative;
+}
+.mobile_menu_button span::before, .mobile_menu_button span:after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: #1e6e71;
+    display: block;
+    position: absolute;
+}
+
+.mobile_menu_button span::before {
+    top: -10px;
+}
+
+.mobile_menu_button span:after {
+    bottom: -10px;
+}
+

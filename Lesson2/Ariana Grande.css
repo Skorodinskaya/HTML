@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.wrap {
+    background: pink;
+}
+ .wrap>h1 {
+     background: #ce4a5d;
+     text-decoration: underline;
+     color: deepskyblue;
+     text-align: center;
+ }
+
+ .content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .list {
+     background: #a574ce;
+     margin-right: 200px;
+     width: 500px;
+     height: 300px;
+ }
+
+ .list-items {
+     font-size: 30px;
+     padding-top: 30px;
+     padding-left: 100px;
+ }
+
+.images>img {
+    height: 200px;
+    display: block;
+    margin: 30px;
+    border-left: 3px dotted #05297b;
+
+ }
+
+.footer {
+    background: paleturquoise;
+    font-style: italic;
+}

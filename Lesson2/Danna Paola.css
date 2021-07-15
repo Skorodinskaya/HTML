@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+.wrap {
+    width: 1400px;
+    min-height: 600px;
+    background: pink;
+}
+.header>h1 {
+    background: #ce4a5d;
+    color: purple;
+    text-align: center;
+}
+
+.header>p {
+    color: darkblue;
+    text-align: center;
+    border-top: 2px solid darkgreen;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.content {
+    display: flex;
+}
+
+.content>img {
+    width: 1000px;
+    height: 400px;
+}
+
+.list {
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    background: coral;
+    color: #05297b;
+    font-style: italic;
+}
+
+.list-items>h3 {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+.list {
+    color: #2a32bf;
+    font-size: 30px;
+    display: flex;
+    width: 400px;
+}

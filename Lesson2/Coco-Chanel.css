@@ -1,0 +1,51 @@
+bode {
+    margin: 0;
+    min-height: 600px;
+}
+
+.wrap {
+    background: pink;
+}
+.wrap h1 {
+    background: purple;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list h3 {
+    text-decoration: underline;
+}
+
+.list {
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+
+.list-items {
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 20px;
+
+}
+
+.main>img {
+    width: 400px;
+    height: 400px;
+
+}
+
+.footer {
+    margin-top: 20px;
+    background: #9ccdcd;
+    color: #2dc28e;
+    border-top: 2px solid purple ;
+    font-size: 20px;
+}

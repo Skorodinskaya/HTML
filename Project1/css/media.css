@@ -1,0 +1,121 @@
+@media screen and (max-width: 480px) {
+    .header_menu, .first_screen_right, .best_finance_stack > img, .companies, .the_ac_hub img {
+        display: none;
+    }
+
+    .wrap {
+        width: 480px;
+    }
+
+    .padding-left145 {
+        padding: 0 20px;
+    }
+
+    .button_talk_to_us {
+        position: inherit;
+        left: 110px;
+    }
+
+
+    .first_screen_left h1 {
+        font-size: 50px;
+        line-height: 73px;
+
+    }
+
+    .best_finance_stack_text h2, .why_switch h2, .plans_built_for_growth h2, .the_ac_hub_content h2 {
+        font-size: 47px;
+        line-height: 48px;
+    }
+
+    .best_finance_stack p {
+        width: 460px;
+    }
+
+    .why_switch, .plans_built_for_growth {
+        padding: 0 20px;
+        position: relative;
+    }
+
+    .why_switch_wrap, .plans_built_for_growth_wrap {
+        display: block;
+    }
+
+    .why_swith_item, .plans_built_for_growth_item {
+        margin-bottom: 20px;
+    }
+
+    .why_swith_item button {
+        position: absolute;
+        top: 0;
+        right: 80px;
+    }
+
+    .plans_built_for_growth h2 {
+        padding-top: 30px;
+    }
+
+    .the_ac_hub_content p {
+        width: 450px;
+    }
+
+    .the_ac_hub_content button {
+        margin-left: 140px;
+    }
+
+    .ready_to_switch {
+        position: relative;
+    }
+
+    .ready_to_switch_item {
+        width: 470px;
+    }
+
+    .ready_to_switch_item_content h2 {
+        font-size: 36px;
+        line-height: 46px;
+        width: 330px;
+        padding-bottom: 70px;
+    }
+
+    .ready_to_switch button {
+        position: absolute;
+        right: 50px;
+        top: 142px;
+    }
+
+    footer {
+        min-height: 880px;
+    }
+    .footer_blocks, .footer_items {
+        position: relative;
+    }
+    .footer_blocks_1-3 {
+       position: absolute;
+        right: 20px;
+    }
+
+    .footer_blocks_4-5 {
+        position: absolute;
+        top: 295px;
+    }
+
+    .footer_block_6 {
+        position: absolute;
+        top: 520px;
+        right: 130px;
+    }
+    .footer_last p {
+        margin-top: 540px;
+    }
+
+    .footer_last img {
+        position: absolute;
+        top: 790px;
+        right: 50px;
+    }
+
+    .mobile_menu_button {
+        display: flex;
+    }
+}

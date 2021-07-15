@@ -1,0 +1,33 @@
+p {
+    font-weight: bolder;
+    background: #a574ce;
+    color: deepskyblue;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    background: cadetblue;
+    color: gold;
+}
+
+.content>img {
+    width: 1000px;
+}
+ .list {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     width: 500px;
+     font-size: 30px;
+     border-left: 15px solid purple;
+
+ }
+
+.list-items>h3 {
+    text-decoration: underline;
+    color: orange;
+}

@@ -1,0 +1,30 @@
+h1 {
+    background: rgba(215, 82, 215, 0.45);
+    color: deepskyblue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background: blueviolet;
+    color: silver;
+}
+
+.content {
+    background: cornflowerblue;
+    color: chartreuse;
+    text-align: justify;
+}
+
+ol {
+    background: #8757b6;
+}
+
+p {
+    color: blue;
+    text-align: justify;
+}
+
+img {
+    width: 300px;
+}
